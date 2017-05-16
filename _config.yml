@@ -1,13 +1,9 @@
-# Site settings
-title: Bart Vandewoestyne's blog
-email: MyFirstName.MyLastName@telenet.be
-description: > # this means to ignore newlines until "baseurl:"
-  This is Bart Vandewoestyne's blog on software development.  As you can see,
-  it is still in a very early stage.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username:  BartVandewoestyne
-
-# Build settings
+theme: jekyll-theme-slate
 markdown: kramdown
-theme: jekyll-theme-cayman
+title: [Bart Vandewoestyne's blog]
+description: [Bart Vandewoestyne's blog on software development.]
+permalink: /blog/:year:/:month:/:day:/:title
+gems:
+  - jekyll-sitemap
+kramdown:
+  auto_ids: true
