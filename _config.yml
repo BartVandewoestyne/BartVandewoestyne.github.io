@@ -2,7 +2,6 @@ theme: jekyll-theme-slate
 markdown: kramdown
 title: [Bart Vandewoestyne's blog]
 description: [Bart Vandewoestyne's blog on software development.]
-permalink: /blog/:year:/:month:/:day:/:title
 gems:
   - jekyll-sitemap
 kramdown:
