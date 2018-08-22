@@ -3,9 +3,6 @@ layout: default
 title: Bart Vandewoestyne's blog
 ---
 
-### Home Page
-This is my first attempt at setting up a website through Github pages.
-
 ### [About Me]({{ site.url }}/about)
 
 ### Recent Blog Posts
