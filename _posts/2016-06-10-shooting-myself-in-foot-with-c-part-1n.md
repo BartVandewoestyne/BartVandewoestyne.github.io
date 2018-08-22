@@ -37,11 +37,11 @@ int main()
 ```
 If, for one second or longer, you thought that would also give 40 on my platform, then continue reading. The fact is that in this case, your intuition failed. Inside the function `f`, the result of `sizeof(x)` is 8 on my platform, being the size of an `int*`.
 
-Investigating this a little further, led me to Stroustrup's ``The C++ Programming Language, Special Edition'', section 7.2.1 ``Array Arguments'' that states:
+Investigating this a little further, led me to Stroustrup's *The C++ Programming Language, Special Edition*, section 7.2.1 *Array Arguments* that states:
 
-> If an array is used as a function argument, a pointer to its initial element is passed. [...] That is, an argument of type T[] will be converted to a T* when passed. [...] In other words, arrays differ from other types in that an array is not (and cannot be) passed by value.
+> If an array is used as a function argument, a pointer to its initial element is passed. [...] That is, an argument of type `T[]` will be converted to a `T*` when passed. [...] In other words, arrays differ from other types in that an array is not (and cannot be) passed by value.
 
-Next to that, ISO/IEC 9899:1999 section 6.7.5.3/7 reads:
+Next to that, *ISO/IEC 9899:1999 section 6.7.5.3/7* reads:
 
 > A declaration of a parameter as ``array of type'' shall be adjusted to ``qualified pointer to type'', [...]
 
