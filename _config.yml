@@ -1,8 +1,14 @@
 theme: jekyll-theme-slate
+
 markdown: kramdown
+
 title: [FooMan's land]
 description: [Bart Vandewoestyne's blog on software development.]
+
+disqus: bartvandewoestyne
+
 gems:
   - jekyll-sitemap
+
 kramdown:
   auto_ids: true

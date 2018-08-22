@@ -2,6 +2,7 @@
 layout: post
 title: ["Hey f, show me you're const!"]
 date: 2016-10-06
+comments: true
 ---
 
 ## Introduction
