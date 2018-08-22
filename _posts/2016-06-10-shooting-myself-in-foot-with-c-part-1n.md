@@ -8,7 +8,7 @@ If you are a professional programmer, or even a not-so-advanced do-it-yourself h
 
 > C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.
 
-This is my first post in an infinite series of posts about how I shot myself in the foot several times while using the C++ programming language. Let's just start with something that came up during a ``C++ Fundamentals'' course that I was participating in today.
+This is my first post in an infinite series of posts about how I shot myself in the foot several times while using the C++ programming language. Let's just start with something that came up during a *C++ Fundamentals* course that I was participating in today.
 
 Given an array
 ```c++
