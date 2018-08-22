@@ -8,6 +8,7 @@ layout: default
   {{ content }}
 </div>
 
-<hr>
-
+<div>
+<h2>Comments</h2>
 {% include disqus.html %}
+</div>
