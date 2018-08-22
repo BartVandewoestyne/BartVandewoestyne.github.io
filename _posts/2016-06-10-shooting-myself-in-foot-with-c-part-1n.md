@@ -43,7 +43,7 @@ Investigating this a little further, led me to Stroustrup's *The C++ Programming
 
 Next to that, *ISO/IEC 9899:1999 section 6.7.5.3/7* reads:
 
-> A declaration of a parameter as ``array of type'' shall be adjusted to ``qualified pointer to type'', [...]
+> A declaration of a parameter as *array of type* shall be adjusted to *qualified pointer to type*, [...]
 
 Note that this means that in the following three functions
 ```c++
