@@ -6,7 +6,7 @@ title: [FooMan's land]
 description: [Bart Vandewoestyne's blog on software development.]
 
 disqus:
-  shortname: bartvandewoestyne
+  shortname: foomansland
 
 gems:
   - jekyll-sitemap
