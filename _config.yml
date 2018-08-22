@@ -5,7 +5,8 @@ markdown: kramdown
 title: [FooMan's land]
 description: [Bart Vandewoestyne's blog on software development.]
 
-disqus: bartvandewoestyne
+disqus:
+  shortname: bartvandewoestyne
 
 gems:
   - jekyll-sitemap
