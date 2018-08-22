@@ -1,7 +1,7 @@
 ---
 layout: post
-title: [""]
-date: 2016-06-10
+title: ["To check for NULL or not, that is the question!"]
+date: 2016-05-05
 ---
 
 # Introduction
