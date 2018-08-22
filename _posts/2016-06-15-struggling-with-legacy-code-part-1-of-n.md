@@ -6,7 +6,7 @@ date: 2016-06-15
 
 Today, I encountered a nice example of the kind of things our team has to deal with while working our way through legacy code. It boils down to the following: given is a function with the following declaration:
 ```c++
-bool SomeClass::doSomethingThatCanFail();
+bool doSomethingThatCanFail();
 ```
 Cppcheck pointed me to a piece of code that uses this function in an if-condition:
 ```c++
