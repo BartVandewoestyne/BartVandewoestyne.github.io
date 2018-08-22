@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 markdown: kramdown
-title: [Bart Vandewoestyne's blog]
+title: [FooMan's land]
 description: [Bart Vandewoestyne's blog on software development.]
 gems:
   - jekyll-sitemap
