@@ -6,7 +6,7 @@ date: 2016-06-10
 
 If you are a professional programmer, or even a not-so-advanced do-it-yourself hacker, you might know about Bjarne Stroustrup's quote
 
-C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.
+> C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.
 
 This is my first post in an infinite series of posts about how I shot myself in the foot several times while using the C++ programming language. Let's just start with something that came up during a ``C++ Fundamentals'' course that I was participating in today.
 
@@ -39,11 +39,11 @@ If, for one second or longer, you thought that would also give 40 on my platform
 
 Investigating this a little further, led me to Stroustrup's ``The C++ Programming Language, Special Edition'', section 7.2.1 ``Array Arguments'' that states:
 
-If an array is used as a function argument, a pointer to its initial element is passed. [...] That is, an argument of type T[] will be converted to a T* when passed. [...] In other words, arrays differ from other types in that an array is not (and cannot be) passed by value.
+> If an array is used as a function argument, a pointer to its initial element is passed. [...] That is, an argument of type T[] will be converted to a T* when passed. [...] In other words, arrays differ from other types in that an array is not (and cannot be) passed by value.
 
 Next to that, ISO/IEC 9899:1999 section 6.7.5.3/7 reads:
 
-A declaration of a parameter as ``array of type'' shall be adjusted to ``qualified pointer to type'', [...]
+> A declaration of a parameter as ``array of type'' shall be adjusted to ``qualified pointer to type'', [...]
 
 Note that this means that in the following three functions
 ```c++
