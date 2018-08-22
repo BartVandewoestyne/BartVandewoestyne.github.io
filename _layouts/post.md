@@ -8,4 +8,6 @@ layout: default
   {{ content }}
 </div>
 
+<hr>
+
 {% include disqus.html %}
